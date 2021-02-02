@@ -1,0 +1,50 @@
+.header {
+  margin-bottom: 32px;
+  background-color: red;
+  padding: 16px;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header ul li {
+  margin-left: 16px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section--paragraph--columns,
+.section--paragraph--flex,
+.section--paragraph--grid {
+ margin-bottom: 56px;
+}
+
+
+.section--paragraph--columns {
+  columns: 3;
+}
+
+.section--paragraph--columns p {
+  margin: 0 8px 16px 8px;
+}
+
+.section--paragraph--flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.section--paragraph--flex p {
+  margin: 0 8px 16px 8px;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.section--paragraph--grid {
+
+}
